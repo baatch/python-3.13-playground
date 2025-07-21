@@ -1,0 +1,33 @@
+# Hej! Nu ska vi börja lära oss Python.
+# Python är ett programmeringsspråk, ungefär som Scratch, men här skriver vi kod med text istället för att dra block.
+
+# 1. Skriva ut text på skärmen
+print("Hej, världen!")  # Detta skriver ut texten inom citattecken på skärmen.
+
+# 2. Spara saker i en variabel
+namn = "Alex"  # Här sparar vi ditt namn i en variabel som heter 'namn'.
+print(namn)    # Nu skriver vi ut vad som finns i variabeln 'namn'.
+
+# 3. Räkna med Python
+tal1 = 5
+tal2 = 3
+summa = tal1 + tal2  # Vi kan räkna ut summan av två tal och spara det i en variabel.
+print(summa)         # Skriver ut svaret, alltså 8.
+
+# 4. Fråga användaren om något
+# Vi kan fråga användaren om deras namn och spara svaret.
+
+# 5. Om och annars (if och else)
+# Vi kan få datorn att välja vad den ska göra beroende på ett svar.
+ålder = int(input("Hur gammal är du? "))  # Vi frågar om ålder och gör om svaret till ett tal.
+if ålder < 10:
+    print("Du är yngre än 10 år!")
+else:
+    print("Du är 10 år eller äldre!")
+
+# 6. Loopar - göra samma sak flera gånger
+# Vi kan få datorn att upprepa något flera gånger.
+for i in range(5):  # range(5) betyder att vi gör detta 5 gånger.
+    print("Detta är rad nummer", i + 1)
+
+# Prova att ändra på siffror och text och se vad som händer!
